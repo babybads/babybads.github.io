@@ -10,11 +10,12 @@ body{
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
-    opacity: 0.6;
+    opacity: 0.9;
 }   
 /*home*/
 .card-body{
     background-image: url(../img/pexels-hasan-albari-1229861.jpg);
+    filter: brightness(0.7);
 }
 #landing{
     display: flex;
