@@ -10,36 +10,32 @@ body{
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
-    opacity: 0.7;
+    opacity: 0.6;
 }   
 /*home*/
+.card-body{
+    background-image: url(../img/pexels-hasan-albari-1229861.jpg);
+}
+#landing{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    
+}
+#avatar{
+    height: 200px;
+    width: 190px;
+    margin: 20px auto;
+    border-radius: 50%;     
+}
 
-h1, p{
 
-    font-family: 'Montserrat', sans-serif;
-    }
-    #avatar{
-        height: 250px;
-        width: 250px;
-        border-radius: 50%;
-        filter: brightness(0.9);
-    }
-    
-    #landing{
-       
-        height: 60vh;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-    
-    }
-    
 
     /*about*/
     
 .about{
-    margin: 90px;
+    margin: 20px;
     text-align: center;
 }
 .about > h1{
@@ -63,6 +59,27 @@ h1, p{
     border: 1px solid white; 
     border-radius: 50%;
 }
+#sti,
+#sfc{
+    border-radius: 50%;
+    width: 40px;
+    height:40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+}
+
+ul {
+    list-style-type: none;
+    
+  }
+ul > li > a {
+    text-decoration: none;
+    color: black;
+    
+}
+
 
     /*contact*/
 
@@ -75,7 +92,7 @@ h1, p{
         justify-content: center;
         align-items: center;
     }
-
+   
     /*hover*/
     
     .row > .col-md-4:hover{
