@@ -18,6 +18,7 @@ body{
 .log_in{
     width: 360px;
     height: min-content;
+    margin:10px;
     padding: 20px;
     border-radius: 15px;
     background-color: antiquewhite;
