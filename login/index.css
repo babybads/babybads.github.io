@@ -1,0 +1,68 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(../login/black-chalkboard-background.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    opacity: 0.9;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;   
+   
+}
+.log_in{
+    width: 360px;
+    height: min-content;
+    padding: 20px;
+    border-radius: 15px;
+    background-color: antiquewhite;
+    filter: brightness(5px);
+   
+}
+.log_in h2{
+    font-size: 30px;
+    margin-bottom: 20px;
+    
+}
+.log_in form{
+    font-size: 20px;
+}
+.log_in form .form-group{
+    margin-bottom: 10px;
+}
+
+.log_in form input[type="submit"]{
+    font-size: 20px;
+    margin-top: 15px;
+}
+span a{
+    color: red;
+    align-items: center;
+    text-decoration: none;
+
+}
+
+/*signup*/
+.registration{
+
+    width: 500px;
+    margin: 10px;
+    padding: 30px 0;
+    border-radius: 20px;
+    background-color: antiquewhite;
+    filter: brightness(5px);
+    
+}
+.registration h2, p{
+    text-align: center;
+}
+
+.registration form{
+    padding: 20px;
+    margin:10px;
+}
